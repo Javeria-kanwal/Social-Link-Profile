@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.inbox {
+    padding-top: 100px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    width: 30%;
+    padding: 32px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.img {
+    border-radius: 100px;
+    width: 26%;
+    margin: 10px 0px;
+
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 23px;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    margin: 10px 0px;
+
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin: 22px 0px;
+}
+
+.items {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    margin: 14px;
+    border-radius: 12px;
+    font-size: 13px;
+}
+
+.items:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 20%);
+}
+
+footer {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 25px;
+    font-size: 12px;
+
+}
+
+footer a {
+    color: hsl(75, 94%, 57%);
+
+}
+
+footer a:hover {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
